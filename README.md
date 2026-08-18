@@ -2,7 +2,8 @@
 
 **Software Engineer | AI Systems & Product | Building Agentic AI that ships**
 
-🎓 **B.S. EECS / ILEE @ University of Illinois Urbana-Champaign (Grainger)** · Class of 2029  
+🎓 **B.S. Computer Science**, **B.S. Electrical Engineering**, **B.S. Innovative Leadership & Engineering Entrepreneurship**  
+**University of Illinois Urbana-Champaign (Grainger)** · Class of 2029  
 📍 Chicago, IL
 
 🔗 **Portfolio:** https://a2105z.github.io  
@@ -12,9 +13,9 @@
 
 # About Me
 
-I'm an EECS / ILEE student at UIUC focused on **agentic AI, AI infrastructure, and product** — systems that reason, retrieve, and act, plus the full-stack products that put those capabilities in front of real users.
+I'm a CS / EE / ILEE student at UIUC focused on **agentic AI, AI infrastructure, and product** — systems that reason, retrieve, and act, plus the full-stack products that put those capabilities in front of real users.
 
-I've worked at **Databricks** and **Rivian** on data/AI platforms and production software. Alongside industry work, I contribute to Google open-source AI tooling (`adk-python`, `genkit`, `python-genai`, `gemini-cli`) and build AI-powered products end-to-end — from contract analysis and handwriting→LaTeX to research-shaped systems pipelines.
+I've worked at **Databricks** and **Rivian** on data/AI platforms and production software. Alongside industry work, I contribute to open-source agent infrastructure around **Databricks Omnigent** and build AI-powered products end-to-end — from contract analysis and handwriting→LaTeX to scheduling systems and academic journey tools.
 
 I care about reliable agent workflows, retrieval and memory-shaped features, clean infrastructure, and products people actually use.
 
@@ -23,11 +24,11 @@ I care about reliable agent workflows, retrieval and memory-shaped features, cle
 # Highlights
 
 - 🏗️ Experience on data / AI platforms at **Databricks** and production software at **Rivian**
-- 🤖 Contribute to Google OSS for **agents & GenAI** (`adk-python`, `genkit`, `python-genai`, `gemini-cli`)
+- 🤖 Contribute to open-source **agentic AI** infrastructure (**Databricks Omnigent** meta-harness)
 - 📱 Shipped **CoParse** — AI-powered contract analysis product (Android + FastAPI)
 - ✍️ Shipped **TeXForm** — multimodal OCR product (handwriting → LaTeX) with a live demo
 - 🧭 Built **Meridian** — full-stack product for academic journey tracking
-- 📈 Built **Chronos** — systems-level multithreaded market-data pipeline in C++
+- ⏱️ Built **Chronos** — constraint-aware time blocking / scheduling engine
 
 ---
 
@@ -125,35 +126,36 @@ Python • FastAPI • SQLAlchemy • SQLite • React • Vite
 
 ---
 
-## 📈 Chronos — Systems / Infrastructure
+## ⏱️ Chronos — Scheduling Product
 
-Multithreaded **C++** market-data replay and analytics system — ingest events, process through a producer/consumer pipeline, maintain an order book, and surface analytics.
+Intelligent **constraint-aware time blocking engine** — takes tasks, availability, and hard constraints, then builds a conflict-free calendar plan.
 
 ### Highlights
 
-- Systems foundation relevant to real-time / data infrastructure work
-- Bounded **thread-safe queue**, producer/consumer concurrency, order book engine
-- Parsed `ADD` / `MODIFY` / `CANCEL` / `TRADE` into structured market events
-- **CMake + C++17** portable Release builds
+- Generates schedules with no overlap inside configured availability windows
+- Applies hard constraints (protected blocks, max continuous work, priorities, deadlines)
+- Supports preferred time-of-day preferences and `.ics` calendar export
+- Full-stack product surface: React + TypeScript frontend, FastAPI backend, scheduling algorithms
 
 **Stack**
 
-C++17 • CMake • Multithreading • Market Data Systems
+Python • FastAPI • React • TypeScript • Algorithms • Calendar / Scheduling
 
 🔗 **GitHub:** https://github.com/a2105z/Chronos
 
 ---
 
-## 🤖 Open Source — Agentic AI & GenAI Infrastructure (Google)
+## 🤖 Open Source — Agentic AI Infrastructure (Databricks Omnigent)
 
-Active contributor workflow on Google open-source projects for **agent development and GenAI infrastructure**:
+Active contributor / builder workflow around **[Databricks Omnigent](https://www.databricks.com/blog/introducing-omnigent-meta-harness-combine-control-and-share-your-agents)** — an open-source **meta-harness** for composing, controlling, and sharing AI agents.
 
-- **`adk-python`** — Agent Development Kit for building, evaluating, and deploying AI agents
-- **`genkit`** — framework for AI-powered apps (JS / Go / Python)
-- **`python-genai`** — Google GenAI Python SDK
-- **`gemini-cli`** — Gemini agent experiences in the terminal
+### Focus
 
-Focus: agent tooling, GenAI SDKs, and the infrastructure layer that makes agentic products reliable and shippable.
+- Agent composition across harnesses and models
+- Policy / control at the meta-harness layer
+- Reliable infrastructure for agentic products that need to ship
+
+🔗 **Omnigent:** https://github.com/omnigent-ai/omnigent · https://omnigent.ai/
 
 ---
 
@@ -185,7 +187,7 @@ Classic browser games (Chess, Tetris, Snake, Pong, 2048, …) — no accounts, j
 
 # Current Focus
 
-- 🤖 Agentic AI systems and Google OSS agent / GenAI tooling
+- 🤖 Agentic AI systems and **Databricks Omnigent** / meta-harness infrastructure
 - 🧠 Memory, retrieval, and context patterns for AI products
 - 🏗️ AI infrastructure and reliable ML/data platforms
 - 🚀 Shipping AI-powered products end-to-end (mobile, web, multimodal)
