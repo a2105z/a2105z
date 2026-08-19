@@ -1,62 +1,44 @@
-# 👋 Hi, I'm Aarav Mittal
+# Hi, I'm Aarav Mittal
 
-**Software Engineer | AI Systems & Product | Building Agentic AI that ships**
+**Building AI products that reason, retrieve, and remember** — and the product systems that put them in users' hands.
 
 🎓 **B.S. Computer Science**, **B.S. Electrical Engineering**, **B.S. Innovative Leadership & Engineering Entrepreneurship**  
 **University of Illinois Urbana-Champaign (Grainger)** · Class of 2029  
 📍 Chicago, IL
 
-🔗 **Portfolio:** https://a2105z.github.io  
-🔗 **LinkedIn:** https://linkedin.com/in/aaravmittal
-
 ---
 
 # About Me
 
-I'm a CS / EE / ILEE student at UIUC focused on **agentic AI, AI infrastructure, and product** — systems that reason, retrieve, and act, plus the full-stack products that put those capabilities in front of real users.
+I'm a CS / EE / ILEE student at UIUC focused on **AI systems and product**: agents and pipelines that can **reason** over goals and constraints, **retrieve** the right context, and **remember** what matters across a session — then shipping that as software people actually use.
 
-I've worked at **Databricks** and **Rivian** on data/AI platforms and production software. Alongside industry work, I contribute to open-source agent infrastructure around **Databricks Omnigent** and build AI-powered products end-to-end — from contract analysis and handwriting→LaTeX to scheduling systems and academic journey tools.
-
-I care about reliable agent workflows, retrieval and memory-shaped features, clean infrastructure, and products people actually use.
-
----
-
-# Highlights
-
-- 🏗️ Experience on data / AI platforms at **Databricks** and production software at **Rivian**
-- 🤖 Contribute to open-source **agentic AI** infrastructure (**Databricks Omnigent** meta-harness)
-- 📱 Shipped **CoParse** — AI-powered contract analysis product (Android + FastAPI)
-- ✍️ Shipped **TeXForm** — multimodal OCR product (handwriting → LaTeX) with a live demo
-- 🧭 Built **Meridian** — full-stack product for academic journey tracking
-- ⏱️ Built **Chronos** — constraint-aware time blocking / scheduling engine
+I've worked at **Databricks** and **Rivian**, and I build end-to-end AI products — from document and multimodal understanding to AI-native planning.
 
 ---
 
 # Currently Interested In
 
-- 🤖 Agentic AI
-- 🧠 Long-Term Memory & Context Systems
-- 🔍 Retrieval-Augmented Generation (RAG)
-- 📊 LLM Evaluation & Reliability
-- 🏗️ AI Infrastructure
-- ⚙️ Distributed Systems
-- 🎙️ Multimodal Interfaces (vision / OCR / document AI)
-- 🚀 AI Product Engineering
+- Agentic AI & reliable tool-using systems
+- Retrieval, long-term memory, and context management
+- LLM evaluation, grounding, and product reliability
+- AI infrastructure & platforms
+- AI product engineering (scope → ship → iterate)
 
 ---
 
 # Experience
 
-## 💼 Databricks
+## Databricks — Software Engineer
 
-**Present**
+**Present** · Focused on **open-source AI / Omnigent**
 
-- Software / ML engineering on data and AI platform surfaces
-- Working at the intersection of data infrastructure, ML workflows, and production systems that support AI applications
+- Software Engineer on open-source **AI agent** infrastructure around **[Databricks Omnigent](https://www.databricks.com/blog/introducing-omnigent-meta-harness-combine-control-and-share-your-agents)** — a meta-harness for composing, controlling, and sharing agents
+- Work spans agent composition across harnesses and models, policy/control at the meta-harness layer, and infrastructure that helps agentic products ship reliably
+- Omnigent: [github.com/omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent) · [omnigent.ai](https://omnigent.ai/)
 
 ---
 
-## 🚗 Rivian
+## Rivian — Software Engineer
 
 **Present**
 
@@ -65,158 +47,89 @@ I care about reliable agent workflows, retrieval and memory-shaped features, cle
 
 ---
 
-# Projects
+# AI Products
 
-## 📱 CoParse — AI Product
+Products oriented around the same loop: **reason → retrieve → remember** (and act).
 
-**Contract safety for students, renters, and early-career workers** — an AI-powered Android product + API that highlights risky clauses, explains them in plain English, and suggests questions to ask before you sign.
+## Chronos — AI-Native Planner
 
-### Highlights
+**Natural language in. Constraint-backed calendar out.** Chronos interprets planning intent with an AI/deterministic planner, then a verified scheduling engine places blocks — so the model never invents capacity the calendar can't support.
 
-- Shipped a full **AI product loop**: upload → extract → analyze → role-aware explanations → actionable questions
-- Built **Kotlin / Jetpack Compose** Android client (Material 3) against a **FastAPI + PostgreSQL** analysis backend
-- Designed async document jobs and structured analysis results for internships, leases, and freelance agreements
-- Combined document AI with product UX: missing-protection checks and signature-readiness style scoring
-- Monorepo with Docker Compose locally and Render + Neon deploy path
+**How it maps to the thesis**
 
-**Stack**
+- **Reason** — parses multi-spot asks (“find me 3 spots, each 2 hours”), priorities, deadlines, and preferences into structured tasks and constraints
+- **Retrieve** — pulls the user's availability, protected time, and existing schedule as the ground truth for placement
+- **Remember** — persists per-user tasks, constraints, and diagnostics so the week stays explainable and editable
 
-Kotlin • Jetpack Compose • FastAPI • PostgreSQL • Alembic • Docker • NLP / Document AI
+**Highlights**
 
-🔗 **GitHub:** https://github.com/a2105z/CoParse
+- AI planner (always-on deterministic parser + optional LLM refine) separate from the **SchedulingEngine** source of truth
+- Diagnostics when work can't fit; FullCalendar drag/resize; JWT multi-user; America/Chicago time rules
+- Stack: Python · FastAPI · React · TypeScript · constraint scheduling
 
----
-
-## ✍️ TeXForm — Multimodal AI Product
-
-Handwritten notes → LaTeX. A multimodal OCR product: upload PDF/image, segment lines, run handwriting OCR, recognize math, and assemble downloadable `.tex` / PDF.
-
-### Highlights
-
-- End-to-end multimodal pipeline: segmentation → **TrOCR** → math recognition → LaTeX assembly
-- Productized as React + FastAPI with Docker deploy and a public **Hugging Face Spaces** demo
-- Optional MathPix / Pix2Text paths for formula recognition
-- Designed for a real user workflow (notes in → usable LaTeX out), not just a model notebook
-
-**Stack**
-
-Python • FastAPI • React • TrOCR • Docker • Hugging Face Spaces • OCR / Vision-Language
-
-🔗 **Live Demo:** https://huggingface.co/spaces/amittal417/texform  
-🔗 **GitHub:** https://github.com/a2105z/TeXForm
+**GitHub:** [a2105z/Chronos](https://github.com/a2105z/Chronos)
 
 ---
 
-## 🧭 Meridian — Full-Stack Product
+## CoParse — Document AI Product
 
-Academic journey tracker for high school and undergrad students — awards, scores, programs, goals — with accounts, filtering, analytics, and export.
+**Contract safety for students, renters, and early-career workers** — upload an agreement; the product **retrieves** clauses that matter, **reasons** about risk in context, and surfaces plain-English explanations plus questions to ask before you sign.
 
-### Highlights
+**How it maps to the thesis**
 
-- Product-shaped full-stack system: auth-scoped data, CRUD, search/filter, analytics, and export
-- **FastAPI + SQLAlchemy** backend with relational modeling and SQL-backed reports
-- **React** frontend for day-to-day tracking and dashboards
-- Clear separation of product UX vs. legacy desktop prototype (Tkinter)
+- **Retrieve** — extract and surface risky / material clauses from long contracts
+- **Reason** — role-aware analysis and missing-protection style checks
+- **Remember** — structured analysis jobs and results users can revisit before signing
 
-**Stack**
+**Highlights**
 
-Python • FastAPI • SQLAlchemy • SQLite • React • Vite
+- Full AI product loop: upload → extract → analyze → explain → actionable questions
+- Kotlin / Jetpack Compose Android client · FastAPI + PostgreSQL backend
+- Stack: Kotlin · Compose · FastAPI · PostgreSQL · Document AI / NLP
 
-🔗 **GitHub:** https://github.com/a2105z/Meridian
-
----
-
-## ⏱️ Chronos — Scheduling Product
-
-Intelligent **constraint-aware time blocking engine** — takes tasks, availability, and hard constraints, then builds a conflict-free calendar plan.
-
-### Highlights
-
-- Generates schedules with no overlap inside configured availability windows
-- Applies hard constraints (protected blocks, max continuous work, priorities, deadlines)
-- Supports preferred time-of-day preferences and `.ics` calendar export
-- Full-stack product surface: React + TypeScript frontend, FastAPI backend, scheduling algorithms
-
-**Stack**
-
-Python • FastAPI • React • TypeScript • Algorithms • Calendar / Scheduling
-
-🔗 **GitHub:** https://github.com/a2105z/Chronos
+**GitHub:** [a2105z/CoParse](https://github.com/a2105z/CoParse)
 
 ---
 
-## 🤖 Open Source — Agentic AI Infrastructure (Databricks Omnigent)
+## TeXForm — Multimodal AI Product
 
-Active contributor / builder workflow around **[Databricks Omnigent](https://www.databricks.com/blog/introducing-omnigent-meta-harness-combine-control-and-share-your-agents)** — an open-source **meta-harness** for composing, controlling, and sharing AI agents.
+Handwritten notes → LaTeX. A vision/OCR product that **retrieves** line and math structure from scans, **reasons** about handwriting vs. formulas, and outputs usable `.tex` / PDF — with a live Hugging Face demo.
 
-### Focus
+**How it maps to the thesis**
 
-- Agent composition across harnesses and models
-- Policy / control at the meta-harness layer
-- Reliable infrastructure for agentic products that need to ship
+- **Retrieve** — segment pages and pull the right visual evidence per line
+- **Reason** — handwriting OCR + math recognition paths (TrOCR and optional formula engines)
+- **Remember** — assemble a coherent document artifact the user can download and reuse
 
-🔗 **Omnigent:** https://github.com/omnigent-ai/omnigent · https://omnigent.ai/
+**Highlights**
 
----
+- End-to-end multimodal pipeline productized as React + FastAPI (Docker + HF Spaces)
+- Designed for a real notes-in / LaTeX-out workflow, not just a notebook demo
+- Stack: Python · FastAPI · React · TrOCR · Hugging Face · OCR / VLM
 
-## 🧮 Cosmos — Product / Tooling
-
-TI-84 inspired graphing calculator in the browser — Calculator, Graph, and AP Stats modes.
-
-### Highlights
-
-- Shipped a usable education product on GitHub Pages
-- Multi-function graphing + stats workflows (LinReg, χ², distributions, plots)
-- Optional FastAPI backend; client-side fallback for stats
-
-🔗 **Live:** https://a2105z.github.io/Cosmos/ · **GitHub:** https://github.com/a2105z/Cosmos
+**Live demo:** [Hugging Face Space](https://huggingface.co/spaces/amittal417/texform) · **GitHub:** [a2105z/TeXForm](https://github.com/a2105z/TeXForm)
 
 ---
 
-## 🎮 CoolGames.io — Product
+# Software & Product Builds
 
-Classic browser games (Chess, Tetris, Snake, Pong, 2048, …) — no accounts, just play.
+Smaller full-stack and product/PM-shaped apps — shipping UX, scope, and iteration, not model-first systems.
 
-### Highlights
-
-- 14+ games with 2P / vs AI modes; Vite + GitHub Pages product surface
-
-🔗 **Live:** https://a2105z.github.io/CoolGames.io/ · **GitHub:** https://github.com/a2105z/CoolGames.io
-
----
-
-# Current Focus
-
-- 🤖 Agentic AI systems and **Databricks Omnigent** / meta-harness infrastructure
-- 🧠 Memory, retrieval, and context patterns for AI products
-- 🏗️ AI infrastructure and reliable ML/data platforms
-- 🚀 Shipping AI-powered products end-to-end (mobile, web, multimodal)
-- 📊 Evaluation and reliability habits for agent / LLM features
+| Project | What it is |
+|---------|------------|
+| **[Meridian](https://github.com/a2105z/Meridian)** | Full-stack academic journey tracker — awards, scores, goals, auth-scoped data, analytics, export (FastAPI + React) |
+| **[Cosmos](https://github.com/a2105z/Cosmos)** | TI-84–inspired browser calculator — calc, graph, and AP Stats modes ([live](https://a2105z.github.io/Cosmos/)) |
+| **[CoolGames.io](https://github.com/a2105z/CoolGames.io)** | Classic browser games product — Chess, Tetris, Snake, Pong, 2048, and more; no accounts ([live](https://a2105z.github.io/CoolGames.io/)) |
 
 ---
 
 # Looking For
 
-I'm currently seeking **Software Engineering, AI Engineering, and AI Product internships**, particularly in:
+**Software Engineering, AI Engineering, and AI Product internships**, especially:
 
-- Agentic AI
-- AI Infrastructure
-- Machine Learning Systems
-- Retrieval / Memory Systems
-- LLM Platforms
-- Distributed Systems
-- AI Product Engineering
+- Agentic AI & AI infrastructure
+- Retrieval / memory / context systems
+- LLM platforms and evaluation
+- AI product engineering
 
-If you're building in these areas, I'd love to connect!
-
----
-
-# Let's Connect
-
-📧 **Email:** aarav.mittal.ma@gmail.com
-
-🌐 **Portfolio:** https://a2105z.github.io
-
-💼 **LinkedIn:** https://www.linkedin.com/in/aaravmittal
-
-💻 **GitHub:** https://github.com/a2105z
+If you're building in these areas, I'd love to connect.
