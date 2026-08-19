@@ -28,22 +28,22 @@ I've worked at **Databricks** and **Rivian**, and I build end-to-end AI products
 
 # Experience
 
-## Databricks — Software Engineer
+## Databricks — Software Engineer Fellow
 
 **Present** · Focused on **open-source AI / Omnigent**
 
-- Software Engineer on open-source **AI agent** infrastructure around **[Databricks Omnigent](https://www.databricks.com/blog/introducing-omnigent-meta-harness-combine-control-and-share-your-agents)** — a meta-harness for composing, controlling, and sharing agents
+- Software Engineer Fellow on open-source **AI agent** infrastructure around **[Databricks Omnigent](https://www.databricks.com/blog/introducing-omnigent-meta-harness-combine-control-and-share-your-agents)** — a meta-harness for composing, controlling, and sharing agents
 - Work spans agent composition across harnesses and models, policy/control at the meta-harness layer, and infrastructure that helps agentic products ship reliably
 - Omnigent: [github.com/omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent) · [omnigent.ai](https://omnigent.ai/)
 
 ---
 
-## Rivian — Software Engineer
+## Rivian — Software Engineer Intern
 
-**Present**
+**Present** · Focused on **Vehicle Telematics**
 
-- Software engineering in a high-reliability product environment
-- Building software across systems and application layers for real-world products
+- Software Engineer Intern on vehicle telematics — software that connects vehicle systems, data, and product surfaces
+- Building in a high-reliability automotive product environment across systems and application layers
 
 ---
 
