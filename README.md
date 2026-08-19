@@ -12,7 +12,7 @@
 
 I'm a CS / EE / ILEE student at UIUC focused on **AI systems and product**: agents and pipelines that can **reason** over goals and constraints, **retrieve** the right context, and **remember** what matters across a session — then shipping that as software people actually use.
 
-I've worked at **Databricks** and **Rivian**, and I build end-to-end AI products — from document and multimodal understanding to AI-native planning.
+I've worked at **Databricks** and **Rivian**. My flagship build is **[Chronos](https://github.com/a2105z/Chronos)** — an AI-native planner — alongside multimodal work like TeXForm.
 
 ---
 
@@ -51,7 +51,7 @@ I've worked at **Databricks** and **Rivian**, and I build end-to-end AI products
 
 Products oriented around the same loop: **reason → retrieve → remember** (and act).
 
-## Chronos — AI-Native Planner
+## Chronos — AI-Native Planner *(flagship)*
 
 **Natural language in. Constraint-backed calendar out.** Chronos interprets planning intent with an AI/deterministic planner, then a verified scheduling engine places blocks — so the model never invents capacity the calendar can't support.
 
@@ -65,29 +65,9 @@ Products oriented around the same loop: **reason → retrieve → remember** (an
 
 - AI planner (always-on deterministic parser + optional LLM refine) separate from the **SchedulingEngine** source of truth
 - Diagnostics when work can't fit; FullCalendar drag/resize; JWT multi-user; America/Chicago time rules
-- Stack: Python · FastAPI · React · TypeScript · constraint scheduling
+- Stack: Python · FastAPI · React · TypeScript · constraint scheduling · Docker · CI
 
 **GitHub:** [a2105z/Chronos](https://github.com/a2105z/Chronos)
-
----
-
-## CoParse — Document AI Product
-
-**Contract safety for students, renters, and early-career workers** — upload an agreement; the product **retrieves** clauses that matter, **reasons** about risk in context, and surfaces plain-English explanations plus questions to ask before you sign.
-
-**How it maps to the thesis**
-
-- **Retrieve** — extract and surface risky / material clauses from long contracts
-- **Reason** — role-aware analysis and missing-protection style checks
-- **Remember** — structured analysis jobs and results users can revisit before signing
-
-**Highlights**
-
-- Full AI product loop: upload → extract → analyze → explain → actionable questions
-- Kotlin / Jetpack Compose Android client · FastAPI + PostgreSQL backend
-- Stack: Kotlin · Compose · FastAPI · PostgreSQL · Document AI / NLP
-
-**GitHub:** [a2105z/CoParse](https://github.com/a2105z/CoParse)
 
 ---
 
