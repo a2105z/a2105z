@@ -2,7 +2,7 @@
 
 **Building AI products that reason, retrieve, and remember** — and the product systems that put them in users' hands.
 
-🎓 **B.S. Computer Science**, **B.S. Electrical Engineering**, **B.S. Innovative Leadership & Engineering Entrepreneurship**  
+🎓 **B.S./M.S. Computer Science**, **B.S. Electrical Engineering**, **B.S. Innovative Leadership & Engineering Entrepreneurship**  
 **University of Illinois Urbana-Champaign (Grainger)** · Class of 2029  
 📍 Chicago, IL
 
