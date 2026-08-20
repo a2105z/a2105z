@@ -1,6 +1,6 @@
 # Hi, I'm Aarav Mittal
 
-**Building AI products that reason, retrieve, and remember** — and the product systems that put them in users' hands.
+**Building products people can open and use** — from shipped browser games to AI systems that reason, retrieve, and remember.
 
 🎓 **B.S./M.S. Computer Science**, **B.S. Electrical Engineering**, **B.S. Innovative Leadership & Engineering Entrepreneurship**  
 **University of Illinois Urbana-Champaign (Grainger)** · Class of 2029  
@@ -10,9 +10,7 @@
 
 # About Me
 
-I'm a CS / EE / ILEE student at UIUC focused on **AI systems and product**: agents and pipelines that can **reason** over goals and constraints, **retrieve** the right context, and **remember** what matters across a session — then shipping that as software people actually use.
-
-I've worked at **Databricks** and **Rivian**. My flagship build is **[Chronos](https://github.com/a2105z/Chronos)** — an AI-native planner — alongside multimodal work like TeXForm.
+I'm a CS / EE / ILEE student at UIUC focused on **shipping software and AI products**. I've worked at **Databricks** and **Rivian**. My flagship build is **[CoolGames.io](https://a2105z.github.io/CoolGames.io/)** — a free classic browser-games product — alongside AI work like Chronos and TeXForm.
 
 ---
 
@@ -47,25 +45,36 @@ I've worked at **Databricks** and **Rivian**. My flagship build is **[Chronos](h
 
 ---
 
+# Flagship Product
+
+## CoolGames.io — Browser Games Product *(flagship)*
+
+**Free classic browser games** — Chess, Tetris, Snake, Pong, 2048, Wordle, Ludo, and more. No downloads. No accounts. Just play.
+
+**Highlights**
+
+- **14 playable games** across board, puzzle, and arcade
+- Most titles support **2 Player** or **vs AI**; Ludo is 4-player
+- Per-game engines (HTML5 Canvas / DOM) inside a shared React + Vite shell
+- Live on GitHub Pages
+
+**Play:** [a2105z.github.io/CoolGames.io](https://a2105z.github.io/CoolGames.io/) · **GitHub:** [a2105z/CoolGames.io](https://github.com/a2105z/CoolGames.io)
+
+---
+
 # AI Products
 
 Products oriented around the same loop: **reason → retrieve → remember** (and act).
 
-## Chronos — AI-Native Planner *(flagship)*
+## Chronos — AI-Native Planner
 
 **Natural language in. Constraint-backed calendar out.** Chronos interprets planning intent with an AI/deterministic planner, then a verified scheduling engine places blocks — so the model never invents capacity the calendar can't support.
 
-**How it maps to the thesis**
-
-- **Reason** — parses multi-spot asks (“find me 3 spots, each 2 hours”), priorities, deadlines, and preferences into structured tasks and constraints
-- **Retrieve** — pulls the user's availability, protected time, and existing schedule as the ground truth for placement
-- **Remember** — persists per-user tasks, constraints, and diagnostics so the week stays explainable and editable
-
 **Highlights**
 
-- AI planner (always-on deterministic parser + optional LLM refine) separate from the **SchedulingEngine** source of truth
-- Diagnostics when work can't fit; FullCalendar drag/resize; JWT multi-user; America/Chicago time rules
-- Stack: Python · FastAPI · React · TypeScript · constraint scheduling · Docker · CI
+- AI planner separate from the **SchedulingEngine** source of truth
+- Multi-spot NL (“find me 3 spots, each 2 hours”); FullCalendar; JWT multi-user; America/Chicago time rules
+- Stack: Python · FastAPI · React · TypeScript · Docker · CI
 
 **GitHub:** [a2105z/Chronos](https://github.com/a2105z/Chronos)
 
@@ -73,19 +82,7 @@ Products oriented around the same loop: **reason → retrieve → remember** (an
 
 ## TeXForm — Multimodal AI Product
 
-Handwritten notes → LaTeX. A vision/OCR product that **retrieves** line and math structure from scans, **reasons** about handwriting vs. formulas, and outputs usable `.tex` / PDF — with a live Hugging Face demo.
-
-**How it maps to the thesis**
-
-- **Retrieve** — segment pages and pull the right visual evidence per line
-- **Reason** — handwriting OCR + math recognition paths (TrOCR and optional formula engines)
-- **Remember** — assemble a coherent document artifact the user can download and reuse
-
-**Highlights**
-
-- End-to-end multimodal pipeline productized as React + FastAPI (Docker + HF Spaces)
-- Designed for a real notes-in / LaTeX-out workflow, not just a notebook demo
-- Stack: Python · FastAPI · React · TrOCR · Hugging Face · OCR / VLM
+Handwritten notes → LaTeX. Vision/OCR pipeline productized as React + FastAPI with a live Hugging Face demo.
 
 **Live demo:** [Hugging Face Space](https://huggingface.co/spaces/amittal417/texform) · **GitHub:** [a2105z/TeXForm](https://github.com/a2105z/TeXForm)
 
@@ -93,13 +90,10 @@ Handwritten notes → LaTeX. A vision/OCR product that **retrieves** line and ma
 
 # Software & Product Builds
 
-Smaller full-stack and product/PM-shaped apps — shipping UX, scope, and iteration, not model-first systems.
-
 | Project | What it is |
 |---------|------------|
 | **[Meridian](https://github.com/a2105z/Meridian)** | Full-stack academic journey tracker — awards, scores, goals, auth-scoped data, analytics, export (FastAPI + React) |
 | **[Cosmos](https://github.com/a2105z/Cosmos)** | TI-84–inspired browser calculator — calc, graph, and AP Stats modes ([live](https://a2105z.github.io/Cosmos/)) |
-| **[CoolGames.io](https://github.com/a2105z/CoolGames.io)** | Classic browser games product — Chess, Tetris, Snake, Pong, 2048, and more; no accounts ([live](https://a2105z.github.io/CoolGames.io/)) |
 
 ---
 
