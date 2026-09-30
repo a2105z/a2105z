@@ -1,109 +1,124 @@
 # Hi, I'm Aarav Mittal
 
-**Building products people can open and use** — from shipped browser games to AI systems that reason, retrieve, and remember.
+**Building software students can actually use** — contract review, scheduling, recruiting follow-ups, and accessible classroom tools.
 
-🎓 **B.S./M.S. Computer Science**, **B.S. Electrical Engineering**, **B.S. Innovative Leadership & Engineering Entrepreneurship**  
-**University of Illinois Urbana-Champaign (Grainger)** · Class of 2029  
-📍 Chicago, IL
-
----
-
-# About Me
-
-I'm a CS / EE / ILEE student at UIUC focused on **shipping software and AI products**. I've worked at **Databricks** and **Rivian**. My flagship build is **[CoolGames.io](https://a2105z.github.io/CoolGames.io/)** — a free classic browser-games product — alongside AI work like Chronos and TeXForm.
+🎓 **B.S. Computer Science (CS + Math)** · **B.S. Electrical Engineering** · **Minor in Business Administration**  
+**University of Illinois Urbana-Champaign** · James Scholar · Class of 2029 · GPA 3.92  
+[+1 201 378 8532](tel:+12013788532) · [aarav.mittal.ma@gmail.com](mailto:aarav.mittal.ma@gmail.com) · [GitHub](https://github.com/a2105z) · [LinkedIn](https://linkedin.com/aarav)
 
 ---
 
-# Currently Interested In
+# Projects
 
-- Agentic AI & reliable tool-using systems
-- Retrieval, long-term memory, and context management
-- LLM evaluation, grounding, and product reliability
-- AI infrastructure & platforms
-- AI product engineering (scope → ship → iterate)
+## [CoParse](https://github.com/a2105z/CoParse) — Contract Review for Students
 
----
+**Kotlin · Android · OCR · NLP · On-Device AI · Document Intelligence**
 
-# Experience
+Android app that helps students understand and review complex legal contracts. I led a 6-engineer team from user research through the analysis pipeline.
 
-## Databricks — Software Engineer Fellow
+- Interviewed 30+ students to identify contract pain points and turn that feedback into engineering priorities
+- Built a Kotlin analysis pipeline using OCR and NLP to identify clauses, flag risks, and recommend next steps
 
-**Present** · Focused on **open-source AI / Omnigent**
-
-- Software Engineer Fellow on open-source **AI agent** infrastructure around **[Databricks Omnigent](https://www.databricks.com/blog/introducing-omnigent-meta-harness-combine-control-and-share-your-agents)** — a meta-harness for composing, controlling, and sharing agents
-- Work spans agent composition across harnesses and models, policy/control at the meta-harness layer, and infrastructure that helps agentic products ship reliably
-- Omnigent: [github.com/omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent) · [omnigent.ai](https://omnigent.ai/)
+**GitHub:** [a2105z/CoParse](https://github.com/a2105z/CoParse)
 
 ---
 
-## Rivian — Software Engineer Intern
+## [Chronos](https://github.com/a2105z/Chronos) — AI Planner
 
-**Present** · Focused on **Vehicle Telematics**
+**React · FastAPI · REST APIs · LLMs · Scheduling · JWT Authentication**
 
-- Software Engineer Intern on vehicle telematics — software that connects vehicle systems, data, and product surfaces
-- Building in a high-reliability automotive product environment across systems and application layers
+AI planner that turns natural-language goals into conflict-free schedules. Built with 3 students.
 
----
-
-# Flagship Product
-
-## CoolGames.io — Browser Games Product *(flagship)*
-
-**Free classic browser games** — Chess, Tetris, Snake, Pong, 2048, Wordle, Ludo, and more. No downloads. No accounts. Just play.
-
-**Highlights**
-
-- **14 playable games** across board, puzzle, and arcade
-- Most titles support **2 Player** or **vs AI**; Ludo is 4-player
-- Per-game engines (HTML5 Canvas / DOM) inside a shared React + Vite shell
-- Live on GitHub Pages
-
-**Play:** [a2105z.github.io/CoolGames.io](https://a2105z.github.io/CoolGames.io/) · **GitHub:** [a2105z/CoolGames.io](https://github.com/a2105z/CoolGames.io)
-
----
-
-# AI Products
-
-Products oriented around the same loop: **reason → retrieve → remember** (and act).
-
-## Chronos — AI-Native Planner
-
-**Natural language in. Constraint-backed calendar out.** Chronos interprets planning intent with an AI/deterministic planner, then a verified scheduling engine places blocks — so the model never invents capacity the calendar can't support.
-
-**Highlights**
-
-- AI planner separate from the **SchedulingEngine** source of truth
-- Multi-spot NL (“find me 3 spots, each 2 hours”); FullCalendar; JWT multi-user; America/Chicago time rules
-- Stack: Python · FastAPI · React · TypeScript · Docker · CI
+- Scheduling engine enforcing 6 constraints across availability, deadlines, protected time, and task conflicts
+- React / FastAPI app with 28 REST APIs, 88 tests, user authentication, and scheduling diagnostics
 
 **GitHub:** [a2105z/Chronos](https://github.com/a2105z/Chronos)
 
 ---
 
-## TeXForm — Multimodal AI Product
+## Thread — AI Recruiting Companion
 
-Handwritten notes → LaTeX. Vision/OCR pipeline productized as React + FastAPI with a live Hugging Face demo.
+**SwiftUI · LLMs · On-Device AI · Speech Recognition · Automation**
 
-**Live demo:** [Hugging Face Space](https://huggingface.co/spaces/amittal417/texform) · **GitHub:** [a2105z/TeXForm](https://github.com/a2105z/TeXForm)
+Turns a 20-second conversation recap into a contact, context, and a follow-up.
 
----
-
-# Software & Product Builds
-
-| Project | What it is |
-|---------|------------|
-| **[Meridian](https://github.com/a2105z/Meridian)** | Full-stack academic journey tracker — awards, scores, goals, auth-scoped data, analytics, export (FastAPI + React) |
-| **[Cosmos](https://github.com/a2105z/Cosmos)** | TI-84–inspired browser calculator — calc, graph, and AP Stats modes ([live](https://a2105z.github.io/Cosmos/)) |
+- Confirmation flow that captures recruiting details accurately and cuts down incorrect information
+- On-device speech, reminders, and AI-generated follow-up drafts for managing relationships
 
 ---
 
-# Looking For
+# Experience
 
-**Software Engineering, AI Engineering, and AI Product internships**, especially:
+## University of Illinois Urbana-Champaign — Machine Learning Systems Developer and Researcher
 
-- Agentic AI & AI infrastructure
-- Retrieval / memory / context systems
-- LLM platforms and evaluation
-- AI product engineering
+**Sep 2026 – Present** · Urbana, IL
 
-If you're building in these areas, I'd love to connect.
+Live captioning and lecture tools for [ScribeAR](https://scribear.illinois.edu/), supporting 100+ hours of accessible real-time lecture transcription.
+
+- Improving speech recognition for technical CS and engineering terms, increasing transcription accuracy by 18%
+- Building low-latency audio processing so captions stay clearer and faster during live lectures
+- Developing an NLP-powered lecture visualizer that turns live audio into real-time systems diagrams and animations
+
+---
+
+## Siebel School of Computing and Data Science — CS Undergraduate Course Assistant, Tutor, & Peer Mentor
+
+**Jan 2026 – May 2026** · Urbana-Champaign, IL
+
+- Tutored 200+ students in data structures and architecture: lists, trees, queues, ADTs, assembly, pipelining, datapaths
+- Guided C/C++ debugging and systems concepts: memory, pointers, recursion, control flow, caching, and architecture
+- Built an interactive data structure visualizer for execution flow and real-code applications
+- Mentored fellow first-gen CS students through office hours, reviews, tutoring, and course planning
+
+---
+
+## AlgoDynamix — Software Development Intern, Financial Data Solutions
+
+**Jun 2025 – Aug 2025** · London, UK
+
+- Built Python tooling for Time-Weighted Expectancy and portfolio risk metrics
+- Automated data pipelines across thousands of trade-log records with NumPy and pandas, cutting manual prep time by 50%
+- Evaluated ML models on financial datasets and translated results into research insights
+- Rotated across data, research, and product, working directly with the founder on technical decisions
+
+---
+
+## LingoGate — Co-Founder and AI Software Developer
+
+**Sep 2022 – May 2025** · Chicago, IL
+
+AI-native multilingual education platform using NLP, speech-to-text, machine translation, and text-to-speech.
+
+- Designed a multimodal localization pipeline for transcription, contextual translation, cultural adaptation, and synthesis
+- Led 0 → 1 product development from user research and technical design through prototyping, testing, and product strategy
+- Named Top 10 in EY’s Inclusive AI Challenge and Top 60 of 1,814 global NFTE innovations addressing the UN’s SDGs
+
+---
+
+# Education
+
+**University of Illinois Urbana-Champaign** · James Scholar · Expected May 2029 · GPA 3.92
+
+Bachelor of Science, Computer Science (CS + Math)  
+Bachelor of Science, Electrical Engineering  
+Minor in Business Administration
+
+**Coursework:** Data Structures & Algorithms · Systems Programming · Computer Architecture · Applied AI/ML · Linear Algebra
+
+**Career programs:** Capital One First-Gen Focus · Goldman Sachs Possibilities Summit & Virtual Insights · McKinsey Forward
+
+---
+
+# Skills
+
+**Languages:** C/C++ · Python · Java · TypeScript/JavaScript · SQL · Go · Rust · Shell/Bash
+
+**Libraries & frameworks:** PyTorch · scikit-learn · NumPy · pandas · React · Node.js · FastAPI · gRPC · Protobuf · PostgreSQL · MCP
+
+**Tools:** Git/GitHub · Linux · Docker · AWS · GitHub Copilot · Cursor · Claude Code · Gemini CLI · Jupyter · Postman
+
+---
+
+# Interests
+
+Building for students · Human-centered AI products · Education access · Technology storytelling · Coffee sampling
