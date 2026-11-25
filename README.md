@@ -6,7 +6,7 @@ I'm **Aarav Mittal**, a student at the **University of Illinois Urbana-Champaign
 
 Most of my time goes to systems that can act, the infrastructure they run on, and the product around them. That work is mostly **Python**, **TypeScript**, **C** and **C++**, **Rust**, and **Swift**.
 
-[Email](mailto:aarav.mittal.ma@gmail.com) · [LinkedIn](https://www.linkedin.com/in/aaravmittal/) · [Website](https://a2105z.github.io)
+[LinkedIn](https://www.linkedin.com/in/aaravmittal/)
 
 ---
 
